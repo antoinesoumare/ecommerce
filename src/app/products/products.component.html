@@ -1,0 +1,36 @@
+<main>
+    <div class="row" *ngFor="let p of products">
+      <div class="col-md-10">
+
+          <section class="product" id="apple">
+            <img src="/assets/Apple.png" alt="Apple Flavor" class="product-img">
+            <h2 class="product-title">{{p.name}}</h2>
+            <p class="product-desc">{{p.description}}</p>
+            <p class="product-availability">{{p.availability}}</p>
+            <p class="product-price">{{p.price}}</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </section>
+          <section class="product" id="strawberry">
+            <img src="/assets/strawberry.png" alt="Strawberry Flavor" class="product-img">
+            <h2 class="product-title">{{p.name}}</h2>
+            <p class="product-desc">{{p.description}}</p>
+            <p class="product-availability">{{p.availability}}</p>
+            <p class="product-price">{{p.price}}</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </section>
+          <section class="product" id="pineapple">
+            <img src="/assets/Pineapple.png" alt="Pineapple Flavor" class="product-img">
+            <h2 class="product-title">{{p.name}}</h2>
+            <p class="product-desc">{{p.description}}</p>
+            <p class="product-availability">{{p.availability}}</p>
+            <p class="product-price">{{p.price}}</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </section>
+          
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Teezy Energy Drink. All rights reserved.</p>
+  </footer>
